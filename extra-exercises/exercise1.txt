@@ -1,0 +1,26 @@
+PROBLEM Fare la spesa seguendo una lista
+
+DATO:
+Lista della spesa = [latte, uova, biscotti, pasta, melanzane, zucchine, mele, crocchette, tovaglioli]
+
+1. Andare al supermencato
+2. Prendere il carrello
+3. Controllare i prodotti sugli scaffali del supermercato
+4. SE (il prodotto sullo scaffale è presente nella lista della spesa)
+	- lo metto nel carrello
+   Altrimenti
+	- ripeto p.3
+5. Andare alla cassa
+6. Mettere i prodotti del carrello sul nastro
+7. Prendere il coupon
+8. Contollare se il coupon è valido
+9. SE (è valido)
+	- si può usare
+   Altrimeti
+	- non usare	
+10. Prendere il portafogli
+11. Controllare i contanti
+12. SE (i contanti > totale)
+	- usare
+    Altrimenti
+	- usare carta di credito
